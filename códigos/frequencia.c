@@ -15,10 +15,10 @@ int main(){
     }
 
     for (i = 0; i < 10; i++){
-        if (numeros [i]== -99999) continue;
+        if (numeros [i] == -99999) continue;
 
         for (j = i+1; j < 10; j++){
-            if (numeros [i]== numeros [j]){
+            if (numeros [i] == numeros [j]){
                 frequencia [i]++;
                 numeros [j] = -99999;
             }
