@@ -8,7 +8,7 @@ int x(int n) {
 }
 
 int main() {
-    int n = 10;           /
+    int n = 10;           
     int NMax = 1000;      
     double total_time = 0;
 
